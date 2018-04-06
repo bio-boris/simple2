@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "About to sleep for 120 and then load /kb/deployment/user-env.sh"
-sleep 120
+echo "About to sleep for 240 and then load /kb/deployment/user-env.sh"
+sleep 240
 
 . /kb/deployment/user-env.sh
 

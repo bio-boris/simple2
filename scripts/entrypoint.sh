@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "About to sleep for 120 and then load /kb/deployment/user-env.sh"
+sleep 120
+
 . /kb/deployment/user-env.sh
 
 python ./scripts/prepare_deploy_cfg.py ./deploy.cfg ./work/config.properties
